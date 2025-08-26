@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Properties>
+        <Property name="basepath">./logs</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
+        </Console>
+
+        <RollingFile name="file"
+                     fileName="${basepath}/automation.log"
+                     filePattern="${basepath}/automation-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
+            <SizeBasedTriggeringPolicy size="5000"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="Info">  <!--trace<debug<info<warn<error<fatal<off -->
+            <AppenderRef ref="file"/>
+            <!-- Optionally also add console: <AppenderRef ref="CONSOLE"/> -->
+        </Root>
+    </Loggers>
+</Configuration>

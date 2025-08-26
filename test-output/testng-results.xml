@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-26T12:52:50 IST" name="MasterSuite" finished-at="2025-08-26T12:52:56 IST" duration-ms="5866">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001RegistrationTest.TestRegistartion()[pri:0, instance:testCases.TC_001RegistrationTest@22e357dc]" name="TestRegistartion" class="testCases.TC_001RegistrationTest"/>
+        <method signature="TC_002LoginTest.LoginTest()[pri:0, instance:testCases.TC_002LoginTest@5f9b2141]" name="LoginTest" class="testCases.TC_002LoginTest"/>
+      </group> <!-- Master -->
+      <group name="regression">
+        <method signature="TC_001RegistrationTest.TestRegistartion()[pri:0, instance:testCases.TC_001RegistrationTest@22e357dc]" name="TestRegistartion" class="testCases.TC_001RegistrationTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002LoginTest.LoginTest()[pri:0, instance:testCases.TC_002LoginTest@5f9b2141]" name="LoginTest" class="testCases.TC_002LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-08-26T12:52:50 IST" name="chromeTest" finished-at="2025-08-26T12:52:56 IST" duration-ms="5866">
+      <class name="testCases.TC_001RegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001RegistrationTest@22e357dc]" started-at="2025-08-26T12:52:50 IST" name="setup" finished-at="2025-08-26T12:52:52 IST" duration-ms="1749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestRegistartion()[pri:0, instance:testCases.TC_001RegistrationTest@22e357dc]" started-at="2025-08-26T12:52:52 IST" name="TestRegistartion" finished-at="2025-08-26T12:52:53 IST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRegistartion -->
+        <test-method is-config="true" signature="taredwown()[pri:0, instance:testCases.TC_001RegistrationTest@22e357dc]" started-at="2025-08-26T12:52:53 IST" name="taredwown" finished-at="2025-08-26T12:52:53 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taredwown -->
+      </class> <!-- testCases.TC_001RegistrationTest -->
+      <class name="testCases.TC_002LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002LoginTest@5f9b2141]" started-at="2025-08-26T12:52:53 IST" name="setup" finished-at="2025-08-26T12:52:55 IST" duration-ms="1150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:testCases.TC_002LoginTest@5f9b2141]" started-at="2025-08-26T12:52:55 IST" name="LoginTest" finished-at="2025-08-26T12:52:56 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="taredwown()[pri:0, instance:testCases.TC_002LoginTest@5f9b2141]" started-at="2025-08-26T12:52:56 IST" name="taredwown" finished-at="2025-08-26T12:52:56 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taredwown -->
+      </class> <!-- testCases.TC_002LoginTest -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- MasterSuite -->
+</testng-results>
